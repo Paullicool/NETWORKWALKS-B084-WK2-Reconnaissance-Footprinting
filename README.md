@@ -34,25 +34,6 @@ Reconnaissance is the foundation of every penetration test. This project documen
 
 ---
 
-## 🗂️ Repository Structure
-
-```
-recon-toolkit/
-├── README.md              # Project documentation (this file)
-├── recon.sh               # Automated recon script
-├── docs/
-│   └── methodology.md     # Workflow and analysis notes
-├── reports/
-│   ├── recon-findings.md  # Completed findings report
-│   └── report-template.md # Blank findings report template
-├── screenshots/           # Terminal evidence for each tool
-├── output/                # Scan results are saved here (git-ignored)
-├── .gitignore
-└── LICENSE
-```
-
----
-
 ## ⚙️ Setup
 
 ### Kali Linux
