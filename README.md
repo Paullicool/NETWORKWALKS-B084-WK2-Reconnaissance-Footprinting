@@ -182,7 +182,7 @@ Evidence from each stage of the reconnaissance (see [`screenshots/`](screenshots
 |------|----------|
 | WHOIS | ![WHOIS output](whois.png) |
 | nslookup | ![nslookup output](nslookup.png) |
-| curl -I | ![curl headers](screenshot2026-11-11-125542.png) |
+| curl -I | ![curl headers](curl.png) |
 | whatweb | ![whatweb output](Whatweb.png) |
 | wafw00f | ![wafw00f output](wafwoof.png) |
 | dnsrecon | ![dnsrecon output](dnsrecon.png) |
