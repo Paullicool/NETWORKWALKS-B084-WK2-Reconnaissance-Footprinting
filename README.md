@@ -180,14 +180,14 @@ Evidence from each stage of the reconnaissance (see [`screenshots/`](screenshots
 
 | Tool | Evidence |
 |------|----------|
-| WHOIS | ![WHOIS output](Screenshot2026-11-11-095405.png) |
-| nslookup | ![nslookup output](Screenshot2026-11-1122143.png) |
-| curl -I | ![curl headers](Screenshot2026-11-11-125542.png) |
+| WHOIS | ![WHOIS output](whois.png) |
+| nslookup | ![nslookup output](nslookup.png) |
+| curl -I | ![curl headers](screenshot2026-11-11-125542.png) |
 | whatweb | ![whatweb output](Whatweb.png) |
 | wafw00f | ![wafw00f output](wafwoof.png) |
-| dnsrecon | ![dnsrecon output](Screenshot2026-11-11-130948.png) |
-| theHarvester | ![theHarvester output](Screenshot2026-11-12-112439.png) |
-| Nmap host discovery | ![nmap host discovery](Screenshot2026-11-17120004-.png) |
+| dnsrecon | ![dnsrecon output](dnsrecon.png) |
+| theHarvester | ![theHarvester output](harvester.png) |
+| Nmap host discovery | ![nmap host discovery](nmap.png) |
 
 ---
 
@@ -201,7 +201,7 @@ Evidence from each stage of the reconnaissance (see [`screenshots/`](screenshots
 | 4 | WAF technology identifiable | Wafw00f identified ModSecurity (SpiderLabs) | Reveals information about the web application's security architecture | 🟡 Low |
 | 5 | DNS infrastructure information exposed | DNSRecon identified DNS, mail and service-related records | DNS information can help build a broader infrastructure profile | 🟠 Medium |
 
-**Result:** 5 findings: 2 Medium, 3 Low, with no critical or high-risk issues. Full details and recommendations are in [`reports/recon-findings.md`](W2-PM-PENTESTINGREPORT.docx). To document your own results, use [`reports/report-template.md`](reports/report-template.md).
+**Result:** 5 findings: 2 Medium, 3 Low, with no critical or high-risk issues. Full details and recommendations are in [`W2-PM- PEN TESTING REPORT.docx`](W2-PM-PENTESTINGREPORT.docx). To document your own results, use [`reports/report-template.md`](reports/report-template.md).
 
 ---
 
